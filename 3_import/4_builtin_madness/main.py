@@ -2,7 +2,7 @@
 
 # if...
 
-__builtins__.open == 'foo'
+__builtins__.open = 'foo'
 
 # ... is allowed yet results in...
 
